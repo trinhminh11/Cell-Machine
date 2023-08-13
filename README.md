@@ -1,61 +1,58 @@
-Cell Machine Game
-Welcome to Cell Machine, a captivating and strategic puzzle game that will challenge your logic and creativity! In this game, you'll be tasked with designing intricate cellular automata systems to achieve specific objectives. Whether you're a seasoned programmer or just someone who loves brain-teasing puzzles, Cell Machine offers a unique and engaging experience.
+# Cell-Machine Game
 
-Table of Contents
-Introduction
-Gameplay
-Features
-How to Play
-Installation
-Controls
-Tips and Tricks
-Contributing
-License
-Introduction
-Cell Machine is a game that combines elements of programming, automation, and puzzle-solving. Your goal is to create complex cellular automata by placing and configuring cells on a grid, and then observing how they interact with each other based on a set of rules. The challenge lies in optimizing your design to achieve specific objectives, such as generating specific patterns, achieving stable states, or even simulating simple computations.
+Welcome to the Cell-Machine game repository! This is a Python game developed using the Pygame library. The game involves arranging and controlling different types of cells within a grid to solve puzzles and complete levels.
 
-Gameplay
-The game consists of levels with varying degrees of complexity. Each level presents you with a grid where you can place different types of cells. Cells can have different behaviors and interactions based on their configuration and placement. Your objective is to manipulate these cells to achieve the desired outcome using the least number of moves.
+![Game Screenshot](screenshot.png)
 
-Features
-Engaging Puzzles: Enjoy a wide range of challenging puzzles that test your creativity and logical thinking.
+## Table of Contents
+- [Game Overview](#game-overview)
+- [Features](#features)
+- [Installation](#installation)
+- [How to Play](#how-to-play)
+- [Levels](#levels)
+- [Controls](#controls)
+- [Contributing](#contributing)
 
-Cell Variety: Use different types of cells, each with its own unique behavior, to create intricate automata.
+## Game Overview
+Cell-Machine is a puzzle game where players manipulate various types of cells within a grid to achieve specific objectives in each level. The game offers a range of levels with varying challenges, requiring players to strategize and plan their moves to progress.
 
-Progressive Difficulty: Start with simple levels and gradually advance to more complex challenges as you master the mechanics.
+## Features
+- Multiple types of cells, each with unique properties and behaviors.
+- Diverse levels with different layouts and objectives.
+- Interactive grid-based gameplay.
+- User-friendly interface and controls.
+- Play and reset buttons for level interaction.
+- Level selection menu for easy navigation.
 
-Sandbox Mode: Unleash your creativity by experimenting with cells and automata without constraints.
+## Installation
+1. Ensure you have Python installed. If not, you can download it from [python.org](https://www.python.org/downloads/).
+2. Clone this repository using Git or download it as a ZIP file.
+3. Navigate to the repository directory using your terminal or command prompt.
+4. Install the required dependencies by running: pip install pygame
+5. Run the game by executing: python main.py
 
-Achievements: Earn achievements for completing levels with the fewest moves, shortest time, and more.
+## How to Play
+- Start the game to access the level selection menu.
+- Choose a level to play from the menu.
+- In each level, use the mouse to interact with cells on the grid.
+- Arrange and control the cells strategically to complete the level's objective.
+- Use the play button to start the simulation, and the reset button to restart the level.
 
-How to Play
-Objective: Understand the level's objective before you begin. It could be creating a specific pattern, achieving a stable state, or any other goal.
+## Levels
+The game includes a total of 17 levels, each with its own unique layout and challenges. As you progress through the levels, the difficulty increases, requiring more complex strategies to complete.
 
-Placing Cells: Drag and drop cells from the side panel onto the grid. You can rotate cells and adjust their properties.
+## Controls
+- Left mouse button: Click on cells to interact with them, including selecting and moving them.
+- Play button: Start the simulation to see the cells' behaviors in action.
+- Reset button: Restart the level to its initial state.
 
-Simulating: Once you've placed your cells, initiate the simulation and observe how they interact based on the predefined rules.
+## Contributing
+Contributions to this project are welcome! If you find a bug, have suggestions for improvements, or want to add new features, feel free to open an issue or submit a pull request.
 
-Iterate and Refine: If your solution doesn't work as expected, modify the placement and properties of the cells, and try again.
+---
 
-Completion: Successfully achieve the level's objective using the fewest moves possible.
+**[Play the Game](#how-to-play)** | **[Report an Issue](https://github.com/yourusername/cell-machine-game/issues)** | **[Contribute](https://github.com/yourusername/cell-machine-game/pulls)**
 
-Installation
-Download the game installer from the official website.
 
-Run the installer and follow the on-screen instructions to install the game on your computer.
 
-Launch the game and start solving puzzles!
 
-Controls
-Drag and drop cells onto the grid.
-Right-click on cells to access their properties and configurations.
-Use the play button to start and stop the simulation.
-Navigate through the levels using the provided interface.
-Tips and Tricks
-Start Simple: Familiarize yourself with each type of cell's behavior in isolation before attempting complex combinations.
-
-Think Ahead: Plan your moves and consider the interactions between cells before initiating the simulation.
-
-Experiment: Don't be afraid to try unconventional approaches. Some levels have multiple solutions.
-
-Optimize: Strive to achieve the level objectives using the fewest moves to earn better rankings.
